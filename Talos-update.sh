@@ -268,8 +268,8 @@ update_nodes() {
         fi
 
         print_colored "$GREEN" "Node $node_name erfolgreich aktualisiert"
-        echo "Wait 60 seconds for the node to stabilize..."
-        sleep 60
+        echo "Wait 5 minutes for the node to stabilize..."
+        sleep 300
     done
 }
 
